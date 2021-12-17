@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. src", "1. src", "{7E1B3988-714D-4E9E-AB9E-C860650D8129}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. tests", "2. tests", "{1EF92E9A-1662-4DDA-A31F-A311FF7AA7FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. solution items", "3. solution items", "{2E5D98F3-A7D3-4023-BDA9-773DA188D225}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockchain.Rio.Domain", "Blockchain.Rio.Domain\Blockchain.Rio.Domain.csproj", "{9562E893-B5FF-48EA-AA11-2BFD9A1F9C1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockchain.Rio.Infra", "Blockchain.Rio.Infra\Blockchain.Rio.Infra.csproj", "{E45C6426-2D0E-4B84-B63A-C22CD1EEAF2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockchain.Rio.App", "Blockchain.Rio.App\Blockchain.Rio.App.csproj", "{6EE17007-1142-4E74-93CC-9D9BEC0CEE7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockchain.Rio.UnitTest", "Blockchain.Rio.UnitTest\Blockchain.Rio.UnitTest.csproj", "{E9A2594E-DA5D-42C8-86DA-4DD2B75BF6E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockchain.Rio.Shared", "Blockchain.Rio.Shared\Blockchain.Rio.Shared.csproj", "{48F376B6-F938-4EA9-A46D-DB8341AE14E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockchain.Rio.Api", "Blockchain.Rio.Api\Blockchain.Rio.Api.csproj", "{C3816925-4C19-46A2-8E1D-509D63CF4F94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9562E893-B5FF-48EA-AA11-2BFD9A1F9C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9562E893-B5FF-48EA-AA11-2BFD9A1F9C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9562E893-B5FF-48EA-AA11-2BFD9A1F9C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9562E893-B5FF-48EA-AA11-2BFD9A1F9C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45C6426-2D0E-4B84-B63A-C22CD1EEAF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45C6426-2D0E-4B84-B63A-C22CD1EEAF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45C6426-2D0E-4B84-B63A-C22CD1EEAF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45C6426-2D0E-4B84-B63A-C22CD1EEAF2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE17007-1142-4E74-93CC-9D9BEC0CEE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE17007-1142-4E74-93CC-9D9BEC0CEE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE17007-1142-4E74-93CC-9D9BEC0CEE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE17007-1142-4E74-93CC-9D9BEC0CEE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A2594E-DA5D-42C8-86DA-4DD2B75BF6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A2594E-DA5D-42C8-86DA-4DD2B75BF6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A2594E-DA5D-42C8-86DA-4DD2B75BF6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A2594E-DA5D-42C8-86DA-4DD2B75BF6E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F376B6-F938-4EA9-A46D-DB8341AE14E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F376B6-F938-4EA9-A46D-DB8341AE14E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F376B6-F938-4EA9-A46D-DB8341AE14E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F376B6-F938-4EA9-A46D-DB8341AE14E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3816925-4C19-46A2-8E1D-509D63CF4F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3816925-4C19-46A2-8E1D-509D63CF4F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3816925-4C19-46A2-8E1D-509D63CF4F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3816925-4C19-46A2-8E1D-509D63CF4F94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9562E893-B5FF-48EA-AA11-2BFD9A1F9C1F} = {7E1B3988-714D-4E9E-AB9E-C860650D8129}
+		{E45C6426-2D0E-4B84-B63A-C22CD1EEAF2B} = {7E1B3988-714D-4E9E-AB9E-C860650D8129}
+		{6EE17007-1142-4E74-93CC-9D9BEC0CEE7C} = {7E1B3988-714D-4E9E-AB9E-C860650D8129}
+		{E9A2594E-DA5D-42C8-86DA-4DD2B75BF6E1} = {1EF92E9A-1662-4DDA-A31F-A311FF7AA7FD}
+		{48F376B6-F938-4EA9-A46D-DB8341AE14E5} = {7E1B3988-714D-4E9E-AB9E-C860650D8129}
+		{C3816925-4C19-46A2-8E1D-509D63CF4F94} = {7E1B3988-714D-4E9E-AB9E-C860650D8129}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1D666C2-14A5-46EF-AC8C-E2F1B1758246}
+	EndGlobalSection
+EndGlobal
